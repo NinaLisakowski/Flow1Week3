@@ -1,11 +1,11 @@
 # Flow1Week3
 
 # Monday 10/2-2020:
-"Getting Started with Travis and CI" is found here: https://github.com/NinaLisakowski/travisGettingStarted 
-The "REST,JPA, Test and CI with our start code" can be found here: https://github.com/NinaLisakowski/rest-jpa-devops-startcode
+- "Getting Started with Travis and CI" is found here: https://github.com/NinaLisakowski/travisGettingStarted 
+- The "REST,JPA, Test and CI with our start code" can be found here: https://github.com/NinaLisakowski/rest-jpa-devops-startcode
 
 # Tuesday 11/02-2020:
-This project "Testing REST Endpoints" was made in the project fom monday, so it is also this link: https://github.com/NinaLisakowski/rest-jpa-devops-startcode
+- This project "Testing REST Endpoints" was made in the project fom monday, so it is also this link: https://github.com/NinaLisakowski/rest-jpa-devops-startcode
 
 
 # Wednesday 12/02-2020:
