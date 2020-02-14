@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+Yesterday you created a number of filter functions using the array given below
+var cars = [
+  { id: 1, year: 1997, make: 'Ford', model: 'E350', price: 3000 },
+  { id: 2, year: 1999, make: 'Chevy', model: 'Venture', price: 4900 },
+  { id: 3, year: 2000, make: 'Chevy', model: 'Venture', price: 5000 },
+  { id: 4, year: 1996, make: 'Jeep', model: 'Grand Cherokee', price: 4799 },
+  { id: 5, year: 2005, make: 'Volvo', model: 'V70', price: 44799 }
+];
+Use this array, with map and filter as outlined in the following
+
+Use the map  method to create a table with all data
+Write a function which, given this array, will return an HTML string with the array formatted as a Table as sketched in this figure (styled with the Bootstrap class table):
+
+Use the filter method, to filter out items from the list
+
+Add an input field and a button (provide each with an id), as sketched in this figure. 
+
+Write the necessary code so when the button is clicked, and the input field contains a number:
+
+A new filtered array is created having only prices < than the value provided
+This array is passed to the function implemented in the previous step, and the DOM is updated with this new table.
+
+
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="div1"></div>
+        <br>
+        <input id="priceInput" type="text" name="textName"  />
+        <input id="price" type="submit" value="Price less than" name="buttonName" />
+        <script src="createDynamicTablerows.js"></script>
+    </body>
+</html>

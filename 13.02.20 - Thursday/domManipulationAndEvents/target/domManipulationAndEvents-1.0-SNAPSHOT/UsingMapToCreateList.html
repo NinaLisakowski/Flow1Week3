@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+a) Yesterday you used the array types map and join methods to create a UL with a number of names. 
+
+Use this function+DOM manipulation to insert the UL somewhere in an HTML page.
+
+b) Create a FORM with an input field + a submit button as sketched here.
+
+Write the necessary code to add the new name to the array of names, and regenerate the <ul> with the updated list.
+
+Hint: You will probably see, very shortly that the name is added, the screen flickers and it's gone again.
+The problem is, that it submits to the server, so the full page is reloaded. 
+To prevent this you can call .preventDefault() on the event argument which will prevent the default behaviour (submit) and it should work. 
+You can also use preventDefault() to prevent a link from actually forwarding to the link-address.
+
+c) Add two more buttons to the form with the text:  “remove first” and  “remove last”. Implement the behaviour inspired by how you solved part-b.
+-->
+<html>
+    <head>
+        <title>Using map to create list’s (ul’s, tables etc.)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Using map to create list’s (ul’s, tables etc.)</div>
+        <div>
+            <ul id="names">
+            </ul>
+            <br>    
+            <form name="formName" action="">
+                <input id="nameId" type="text" name="textName"  />
+
+                <input id="btnAddNameId" type="submit" value="Add name" name="buttonName" />
+
+                <br><br>
+
+                <input id="deleteFirstNameID" type="submit" value="Delete FirstName" name="buttonName" />
+
+                <input id="deleteLastNameID" type="submit" value="Delete LastName" name="buttonName" />
+            </form>
+        </div> 
+        <script src="useMapCreateList.js" ></script>
+    </body>
+</html>

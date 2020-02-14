@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+Add three divs to an HTML page, each with a unique id
+
+a) When the page initially is loaded all divs should be given a colour of your choice
+    Hints: use document.getElementsByTagName() (will return an array of Dom Nodes) and element.style.backgroundColor 
+
+b) Add a button, and assign a click handler to the button. When the button is clicked each div should be given a unique colour.
+    Hints: use document.getElementById(..) to get the individual div’s
+-->
+<html>
+    <head>
+        <title>DOM-Exercise</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="theme.css">
+    </head>
+    <body>
+        <div id="one">First div</div>
+        <div id="two">Second div</div>
+        <div id="three">Third div</div>
+
+        <button onclick="changeColour()">Change colour</button>
+       <script src="DOMScript.js"></script>
+        
+    </body>
+</html>

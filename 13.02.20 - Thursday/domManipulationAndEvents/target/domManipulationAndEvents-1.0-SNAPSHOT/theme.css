@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13. feb. 2020, 11.24.35
+    Author     : Nina
+*/
+
+/*Exercise Simple DOM manipulation and Event handling*/
+#one {
+    color: blue;
+}
+
+#two {
+    color: green;
+}
+
+#three {
+    color: purple;
+}
+
+/*Exercise Event Bubbling and event arguments*/
+.mydiv {
+    width: 25px; 
+    height: 25px;
+    background-color:yellow; 
+    margin:1px;
+}
+

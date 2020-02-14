@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+In a new HTML page add two div’s, each with a unique id
+Style both id’s with this class: 
+.mydiv {width: 25px; height: 25px;background-color:yellow; margin:1px;}
+
+a) 
+    Add a click handler to each id and write code, so when clicked, each div will write to the console "Hi from idOfTheDiv".
+
+b)  Now, using cut and paste, add 10 more divs (still each with a unique id).
+
+Adding an event handler to each div would be cumbersome and non-efficient (what if you had been asked to add 100 or thousands of new id’s).
+
+We will use JavaScript's event bubbling mechanism to solve this with only a single event handler.
+
+Add a new div (without the myDiv class) with the id="outer" around all our div’s and assign a single event handler (with the event argument)  to this div.
+
+Implement code to write to the console:
+The value of id pointed to by this
+The value of id pointed to by the target property (which you get from the event argument)
+Make SURE you understand what happened here
+
+c) 
+Add an empty paragraph tag, with an id, to your HTML and change the code for both exercises above, so that output is not written to the console, but into this paragraph.
+
+Hint: Use the innerText property of an Element
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="theme.css">
+    </head>
+    <body>
+        <p id="p"></p>
+        <div id="outer">
+            <div id="div1">DIV 1</div>
+            <div id="div2">DIV 2</div> 
+            <div id="div3">DIV 3</div>
+            <div id="div4">DIV 4</div> 
+            <div id="div5">DIV 5</div>
+            <div id="div6">DIV 6</div> 
+            <div id="div7">DIV 7</div>
+            <div id="div8">DIV 8</div> 
+            <div id="div9">DIV 9</div>
+            <div id="div10">DIV 10</div> 
+            <div id="div11">DIV 11</div>
+            <div id="div12">DIV 12</div> 
+        </div>
+        <script src="DOMScript.js"></script>
+
+
+
+    </body>
+</html>
