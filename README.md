@@ -10,6 +10,7 @@
 
 # Wednesday 12/02-2020:
 Link: https://github.com/NinaLisakowski/Flow1Week3/tree/master/12.02.20%20-%20Wednesday
+
 The exercises "The JavaScript Array" and "JavaScript Day-1" are in the same project.
 The "The JavaScript Array" is done in the 'main.js' file under sources. And the "JavaScript Day-1" exercises are done in three seperate files under sources. It is 'JavaScriptFunctions.js', 'Callbacks.js' and 'AsynchronousCallbacks.js', respectively. The project is called "js_day1".
 
